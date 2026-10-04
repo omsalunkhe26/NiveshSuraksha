@@ -59,7 +59,7 @@ export const Navbar = ({ activeTab, setActiveTab }) => {
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-xl font-extrabold tracking-tight text-white font-['Outfit'] group-hover:text-cyan-300 transition">
-                  MONEY<span className="text-cyan-400">GUARD</span>
+                  NIVESH<span className="text-cyan-400">SURAKSHA</span>
                 </span>
                 <span className="hidden sm:inline-block text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-800/60">
                   AI SAFETY

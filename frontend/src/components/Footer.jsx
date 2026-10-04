@@ -29,7 +29,7 @@ export const Footer = ({ setActiveTab }) => {
                 <Shield className="w-5 h-5 text-white" />
               </div>
               <span className="text-lg font-bold text-white tracking-tight font-['Outfit']">
-                MONEY<span className="text-cyan-400">GUARD</span>
+                NIVESH<span className="text-cyan-400">SURAKSHA</span>
               </span>
             </div>
             <p className="text-xs text-slate-400 max-w-md leading-relaxed">
