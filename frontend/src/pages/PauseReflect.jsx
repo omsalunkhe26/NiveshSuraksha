@@ -61,7 +61,7 @@ export const PauseReflect = ({ initialIntention = '' }) => {
 
   useEffect(() => {
     // Load local journal entries
-    const saved = JSON.parse(localStorage.getItem('moneyguard_journal') || '[]');
+    const saved = JSON.parse(localStorage.getItem('NiveshSuraksha_journal') || '[]');
     setPastJournalEntries(saved);
   }, []);
 
@@ -162,7 +162,7 @@ export const PauseReflect = ({ initialIntention = '' }) => {
 
     const updated = [newEntry, ...pastJournalEntries];
     setPastJournalEntries(updated);
-    localStorage.setItem('moneyguard_journal', JSON.stringify(updated));
+    localStorage.setItem('NiveshSuraksha_journal', JSON.stringify(updated));
     setJournalSavedMessage(true);
     setTimeout(() => setJournalSavedMessage(false), 3000);
   };

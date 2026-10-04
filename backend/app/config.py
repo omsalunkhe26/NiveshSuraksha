@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Settings(BaseModel):
-    PROJECT_NAME: str = "MoneyGuard"
+    PROJECT_NAME: str = "NiveshSuraksha"
     VERSION: str = "1.0.0"
     TAGLINE: str = "Pause. Verify. Understand."
     HOST: str = os.getenv("HOST", "0.0.0.0")
@@ -19,7 +19,7 @@ class Settings(BaseModel):
     OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
     
     # Database
-    DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite+aiosqlite:///./moneyguard.db")
+    DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite+aiosqlite:///./NiveshSuraksha.db")
     
     # CORS
     CORS_ORIGINS: List[str] = [

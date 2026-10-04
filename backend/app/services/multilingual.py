@@ -1,5 +1,5 @@
 """
-Multilingual helper for MoneyGuard (English, Hindi, Marathi).
+Multilingual helper for NiveshSuraksha (English, Hindi, Marathi).
 Provides native natural translations and explanations without awkward literal machine translation.
 """
 
@@ -35,7 +35,7 @@ TRANSLATIONS = {
             "medium": "A QUICK CHECKPOINT",
             "low": "REFLECT & VERIFY"
         },
-        "disclaimer": "MoneyGuard provides educational financial safety guidance. It does not provide investment advice or recommendations."
+        "disclaimer": "NiveshSuraksha provides educational financial safety guidance. It does not provide investment advice or recommendations."
     },
     "hi": {
         "risk_levels": {
@@ -68,7 +68,7 @@ TRANSLATIONS = {
             "medium": "एक त्वरित समीक्षा (A QUICK CHECKPOINT)",
             "low": "पुष्टि करें और विचार करें"
         },
-        "disclaimer": "MoneyGuard केवल वित्तीय सुरक्षा और जागरूकता मार्गदर्शन प्रदान करता है। यह निवेश सलाह या सिफारिशें नहीं देता है।"
+        "disclaimer": "NiveshSuraksha केवल वित्तीय सुरक्षा और जागरूकता मार्गदर्शन प्रदान करता है। यह निवेश सलाह या सिफारिशें नहीं देता है।"
     },
     "mr": {
         "risk_levels": {
@@ -101,7 +101,7 @@ TRANSLATIONS = {
             "medium": "एक छोटा चेकपॉईंट",
             "low": "पडताळणी करा आणि विचार करा"
         },
-        "disclaimer": "MoneyGuard केवळ शैक्षणिक आर्थिक सुरक्षितता मार्गदर्शन प्रदान करते. हे गुंतवणुकीचा सल्ला किंवा शिफारसी देत नाही."
+        "disclaimer": "NiveshSuraksha केवळ शैक्षणिक आर्थिक सुरक्षितता मार्गदर्शन प्रदान करते. हे गुंतवणुकीचा सल्ला किंवा शिफारसी देत नाही."
     }
 }
 

@@ -7,7 +7,7 @@ router = APIRouter(prefix="/api/health", tags=["Health"])
 async def health_check():
     return {
         "status": "healthy",
-        "service": "MoneyGuard AI Financial Safety Companion",
+        "service": "NiveshSuraksha AI Financial Safety Companion",
         "tagline": "Pause. Verify. Understand.",
         "version": settings.VERSION,
         "environment": settings.ENVIRONMENT,

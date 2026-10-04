@@ -15,7 +15,7 @@ export const Footer = ({ setActiveTab }) => {
           <div className="text-xs sm:text-sm text-slate-300 space-y-1">
             <p className="font-semibold text-white">Educational Safety Disclaimer</p>
             <p className="text-slate-400 leading-relaxed">
-              {t.brand.disclaimer} MoneyGuard is not an investment advisor, stock broker, or portfolio manager. Its sole purpose is to build investor resilience against digital deception, financial jargon, and emotional bias.
+              {t.brand.disclaimer} NiveshSuraksha is not an investment advisor, stock broker, or portfolio manager. Its sole purpose is to build investor resilience against digital deception, financial jargon, and emotional bias.
             </p>
           </div>
         </div>
@@ -46,17 +46,17 @@ export const Footer = ({ setActiveTab }) => {
             <ul className="space-y-1.5 text-xs text-slate-400">
               <li>
                 <button onClick={() => setActiveTab('check')} className="hover:text-cyan-400 transition">
-                  🚨 MoneyGuard Check (Fraud Detector)
+                  🚨 NiveshSuraksha Check (Fraud Detector)
                 </button>
               </li>
               <li>
                 <button onClick={() => setActiveTab('explain')} className="hover:text-cyan-400 transition">
-                  🧠 MoneyGuard Explain (Jargon Buster)
+                  🧠 NiveshSuraksha Explain (Jargon Buster)
                 </button>
               </li>
               <li>
                 <button onClick={() => setActiveTab('pause')} className="hover:text-cyan-400 transition">
-                  🛑 MoneyGuard Pause (Cooling-Off)
+                  🛑 NiveshSuraksha Pause (Cooling-Off)
                 </button>
               </li>
               <li>
@@ -95,7 +95,7 @@ export const Footer = ({ setActiveTab }) => {
 
         {/* Bottom Bar */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
-          <p>© 2026 MoneyGuard • SANGYAN Investor Resilience Hackathon</p>
+          <p>© 2026 NiveshSuraksha • SANGYAN Investor Resilience Hackathon</p>
           <p className="flex items-center gap-1">
             <span>Built with focus on</span>
             <span className="text-cyan-400 font-semibold">Safety & Resilience</span>

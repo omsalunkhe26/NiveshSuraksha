@@ -1,5 +1,5 @@
 /**
- * MoneyGuard API Client with transparent error recovery and client-side fallback.
+ * NiveshSuraksha API Client with transparent error recovery and client-side fallback.
  */
 
 const API_BASE = "/api";
@@ -231,7 +231,7 @@ export const api = {
       return await res.json();
     } catch (err) {
       console.warn("History API fallback, reading local storage:", err);
-      const local = JSON.parse(localStorage.getItem("moneyguard_history") || "[]");
+      const local = JSON.parse(localStorage.getItem("NiveshSuraksha_history") || "[]");
       return { items: local, total_count: local.length };
     }
   },
@@ -250,6 +250,6 @@ export const api = {
     } catch (err) {
       console.warn("Clear history fallback:", err);
     }
-    localStorage.removeItem("moneyguard_history");
+    localStorage.removeItem("NiveshSuraksha_history");
   }
 };

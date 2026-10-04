@@ -2,7 +2,7 @@ export const DEMO_SCENARIOS = {
   scam1: {
     id: "scam1",
     name: "Scenario 1: High-Risk Guaranteed Scam",
-    tag: "MoneyGuard Check",
+    tag: "NiveshSuraksha Check",
     content: "Double your money in 5 days!\nGuaranteed 40% returns.\nOnly 3 slots left.\nInvest now: http://fast-crorepati-returns.com",
     expectedRisk: "HIGH / CRITICAL",
     route: "/check"
@@ -10,21 +10,21 @@ export const DEMO_SCENARIOS = {
   explain1: {
     id: "explain1",
     name: "Scenario 2: Jargon Buster ('What is NAV?')",
-    tag: "MoneyGuard Explain",
+    tag: "NiveshSuraksha Explain",
     query: "What is NAV?",
     route: "/explain"
   },
   pause1: {
     id: "pause1",
     name: "Scenario 3: 60s Cooling-Off / FOMO Check",
-    tag: "MoneyGuard Pause",
+    tag: "NiveshSuraksha Pause",
     intention: "Everyone in my Telegram group is making money. I'm putting ₹1 lakh in tomorrow.",
     route: "/pause"
   },
   sebiFake: {
     id: "sebiFake",
     name: "Fake SEBI Insider Call",
-    tag: "MoneyGuard Check",
+    tag: "NiveshSuraksha Check",
     content: "SEBI REGISTERED RESEARCH ANALYST. 100% Sure Shot Jackpot Call tomorrow morning! Accuracy: 99.8% Guaranteed Profit. Pay ₹5,000 to UPI insider.tips@okhdfcbank",
     expectedRisk: "CRITICAL",
     route: "/check"
@@ -32,7 +32,7 @@ export const DEMO_SCENARIOS = {
   smsPhish: {
     id: "smsPhish",
     name: "Bank KYC / Share OTP Phishing",
-    tag: "MoneyGuard Check",
+    tag: "NiveshSuraksha Check",
     content: "URGENT ALERT: Your SBI NetBanking access is suspended due to pending KYC update. Share OTP immediately at http://sbi-kyc-verify-portal.net to avoid permanent block.",
     expectedRisk: "CRITICAL",
     route: "/check"

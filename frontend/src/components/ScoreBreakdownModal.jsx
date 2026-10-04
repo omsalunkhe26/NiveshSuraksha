@@ -36,7 +36,7 @@ export const ScoreBreakdownModal = ({ isOpen, onClose, breakdown = [], finalScor
         <div className="my-4 p-3.5 rounded-xl bg-slate-800/60 border border-slate-700/60 flex items-start gap-3 text-xs sm:text-sm text-slate-300">
           <Info className="w-5 h-5 text-cyan-400 shrink-0 mt-0.5" />
           <span>
-            MoneyGuard never invents scores. Every warning flag is identified from verifiable evidence in the text, assigned pre-calibrated safety penalty points, and capped at 100.
+            NiveshSuraksha never invents scores. Every warning flag is identified from verifiable evidence in the text, assigned pre-calibrated safety penalty points, and capped at 100.
           </span>
         </div>
 

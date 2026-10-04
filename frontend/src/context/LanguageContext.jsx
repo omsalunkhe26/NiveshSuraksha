@@ -5,11 +5,11 @@ const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(() => {
-    return localStorage.getItem('moneyguard_lang') || 'en';
+    return localStorage.getItem('NiveshSuraksha_lang') || 'en';
   });
 
   useEffect(() => {
-    localStorage.setItem('moneyguard_lang', language);
+    localStorage.setItem('NiveshSuraksha_lang', language);
   }, [language]);
 
   const t = TRANSLATIONS[language] || TRANSLATIONS.en;

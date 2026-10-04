@@ -8,7 +8,7 @@ from app.schemas import CheckRequest, CheckResponse, OCRExtractRequest, OCRExtra
 from app.services.ai_provider import AIProviderService
 from app.services.ocr_service import OCRService, SAMPLE_SCREENSHOT_DATA
 
-router = APIRouter(prefix="/api/check", tags=["MoneyGuard Check"])
+router = APIRouter(prefix="/api/check", tags=["NiveshSuraksha Check"])
 
 @router.post("/analyze", response_model=CheckResponse)
 async def analyze_message(req: CheckRequest, db: AsyncSession = Depends(get_db)):

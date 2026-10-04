@@ -13,18 +13,18 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
 )
-logger = logging.getLogger("moneyguard")
+logger = logging.getLogger("NiveshSuraksha")
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    logger.info("🛡️ Initializing MoneyGuard Database and Services...")
+    logger.info("🛡️ Initializing NiveshSuraksha Database and Services...")
     await init_db()
-    logger.info(f"🛡️ MoneyGuard v{settings.VERSION} backend running on port {settings.PORT} (AI Provider: {settings.AI_PROVIDER})")
+    logger.info(f"🛡️ NiveshSuraksha v{settings.VERSION} backend running on port {settings.PORT} (AI Provider: {settings.AI_PROVIDER})")
     yield
-    logger.info("🛡️ MoneyGuard backend shutting down gracefully.")
+    logger.info("🛡️ NiveshSuraksha backend shutting down gracefully.")
 
 app = FastAPI(
-    title="MoneyGuard - AI Financial Safety Companion",
+    title="NiveshSuraksha - AI Financial Safety Companion",
     description="Backend API for SANGYAN Investor Resilience Hackathon 2026. 'Pause. Verify. Understand.'",
     version=settings.VERSION,
     lifespan=lifespan
@@ -46,9 +46,9 @@ async def global_exception_handler(request: Request, exc: Exception):
     return JSONResponse(
         status_code=500,
         content={
-            "error": "MoneyGuard couldn't complete the analysis.",
+            "error": "NiveshSuraksha couldn't complete the analysis.",
             "detail": "An internal error occurred. Please try again or switch to Demo Mode.",
-            "suggestion": "MoneyGuard provides educational financial safety guidance."
+            "suggestion": "NiveshSuraksha provides educational financial safety guidance."
         }
     )
 
@@ -62,7 +62,7 @@ app.include_router(history.router)
 @app.get("/")
 async def root():
     return {
-        "app": "MoneyGuard - AI Financial Safety Companion",
+        "app": "NiveshSuraksha - AI Financial Safety Companion",
         "tagline": "Pause. Verify. Understand.",
         "hackathon": "SANGYAN Investor Resilience Hackathon 2026",
         "status": "online",

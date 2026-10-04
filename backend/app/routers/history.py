@@ -123,4 +123,4 @@ async def clear_all_history(db: AsyncSession = Depends(get_db)):
     await db.execute(delete(ExplainHistory))
     await db.execute(delete(PauseSession))
     await db.commit()
-    return {"status": "success", "message": "All MoneyGuard history cleared."}
+    return {"status": "success", "message": "All NiveshSuraksha history cleared."}

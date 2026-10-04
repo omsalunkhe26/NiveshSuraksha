@@ -93,7 +93,7 @@ export const CheckMessage = ({ initialContent = '' }) => {
       });
     } catch (err) {
       console.error("Analysis error:", err);
-      alert("MoneyGuard couldn't complete the analysis. Please try again.");
+      alert("NiveshSuraksha couldn't complete the analysis. Please try again.");
     } finally {
       setLoading(false);
     }

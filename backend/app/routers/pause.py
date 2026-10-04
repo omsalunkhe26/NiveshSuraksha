@@ -13,7 +13,7 @@ from app.schemas import (
 )
 from app.services.behavioral_engine import BehavioralEngine
 
-router = APIRouter(prefix="/api/pause", tags=["MoneyGuard Pause"])
+router = APIRouter(prefix="/api/pause", tags=["NiveshSuraksha Pause"])
 
 @router.post("/analyze", response_model=PauseAnalyzeResponse)
 async def analyze_pause_intention(req: PauseAnalyzeRequest):

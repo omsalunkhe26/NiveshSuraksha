@@ -30,8 +30,8 @@ export const HistoryProvider = ({ children }) => {
     setHistoryItems(prev => [newItem, ...prev]);
     
     // Save to local storage cache
-    const existing = JSON.parse(localStorage.getItem('moneyguard_history') || '[]');
-    localStorage.setItem('moneyguard_history', JSON.stringify([newItem, ...existing.slice(0, 49)]));
+    const existing = JSON.parse(localStorage.getItem('NiveshSuraksha_history') || '[]');
+    localStorage.setItem('NiveshSuraksha_history', JSON.stringify([newItem, ...existing.slice(0, 49)]));
   };
 
   const deleteItem = async (type, id) => {
@@ -39,9 +39,9 @@ export const HistoryProvider = ({ children }) => {
     await api.deleteHistoryItem(type, id);
     
     // Update localStorage
-    const existing = JSON.parse(localStorage.getItem('moneyguard_history') || '[]');
+    const existing = JSON.parse(localStorage.getItem('NiveshSuraksha_history') || '[]');
     localStorage.setItem(
-      'moneyguard_history',
+      'NiveshSuraksha_history',
       JSON.stringify(existing.filter(i => !(i.type === type && i.id === id)))
     );
   };
@@ -49,7 +49,7 @@ export const HistoryProvider = ({ children }) => {
   const clearAll = async () => {
     setHistoryItems([]);
     await api.clearHistory();
-    localStorage.removeItem('moneyguard_history');
+    localStorage.removeItem('NiveshSuraksha_history');
   };
 
   useEffect(() => {

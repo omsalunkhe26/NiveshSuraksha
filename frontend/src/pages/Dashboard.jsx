@@ -86,7 +86,7 @@ export const Dashboard = ({ setActiveTab, onQuickCheck }) => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           
-          {/* Card 1: MoneyGuard Check (Primary) */}
+          {/* Card 1: NiveshSuraksha Check (Primary) */}
           <div 
             onClick={() => setActiveTab('check')}
             className="glass-card-hover p-6 sm:p-7 flex flex-col justify-between cursor-pointer group relative overflow-hidden border-rose-900/40 hover:border-rose-500/60"
@@ -120,7 +120,7 @@ export const Dashboard = ({ setActiveTab, onQuickCheck }) => {
             </div>
           </div>
 
-          {/* Card 2: MoneyGuard Explain */}
+          {/* Card 2: NiveshSuraksha Explain */}
           <div 
             onClick={() => setActiveTab('explain')}
             className="glass-card-hover p-6 sm:p-7 flex flex-col justify-between cursor-pointer group relative overflow-hidden border-cyan-900/40 hover:border-cyan-500/60"
@@ -154,7 +154,7 @@ export const Dashboard = ({ setActiveTab, onQuickCheck }) => {
             </div>
           </div>
 
-          {/* Card 3: MoneyGuard Pause */}
+          {/* Card 3: NiveshSuraksha Pause */}
           <div 
             onClick={() => setActiveTab('pause')}
             className="glass-card-hover p-6 sm:p-7 flex flex-col justify-between cursor-pointer group relative overflow-hidden border-amber-900/40 hover:border-amber-500/60"

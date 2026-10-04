@@ -1,11 +1,11 @@
 export const TRANSLATIONS = {
   en: {
     brand: {
-      name: "MoneyGuard",
+      name: "NiveshSuraksha",
       tagline: "Pause. Verify. Understand.",
       companion: "Your AI Financial Safety Companion",
       hackathon: "SANGYAN Investor Resilience Hackathon 2026",
-      disclaimer: "MoneyGuard provides educational financial safety guidance. It does not provide investment advice or recommendations."
+      disclaimer: "NiveshSuraksha provides educational financial safety guidance. It does not provide investment advice or recommendations."
     },
     nav: {
       dashboard: "Dashboard",
@@ -26,19 +26,19 @@ export const TRANSLATIONS = {
       modesTitle: "Three Pillars of Financial Resilience",
       modesSubtitle: "Built to protect Indian retail investors from predatory fraud, jargon barriers, and emotional impulse.",
       cardCheck: {
-        title: "MoneyGuard Check",
+        title: "NiveshSuraksha Check",
         tag: "Digital Fraud Resilience",
         description: "Spot hidden red flags, guaranteed return traps, and predatory urgency before you click, pay, or trust.",
         btn: "Check a Message"
       },
       cardExplain: {
-        title: "MoneyGuard Explain",
+        title: "NiveshSuraksha Explain",
         tag: "Financial Literacy",
         description: "Understand NAV, IPO, SIP, and market jargon in simple language with relatable everyday analogies.",
-        btn: "Ask MoneyGuard"
+        btn: "Ask NiveshSuraksha"
       },
       cardPause: {
-        title: "MoneyGuard Pause",
+        title: "NiveshSuraksha Pause",
         tag: "Behavioural Resilience",
         description: "Take a 60-second cooling-off checkpoint to detect FOMO, social pressure, and impulsive loss chasing.",
         btn: "Take a Pause"
@@ -53,21 +53,21 @@ export const TRANSLATIONS = {
     },
     check: {
       title: "Check Before You Click",
-      subtitle: "Something feel suspicious? Bring it to MoneyGuard for instant AI red flag analysis.",
+      subtitle: "Something feel suspicious? Bring it to NiveshSuraksha for instant AI red flag analysis.",
       tabs: {
         paste: "Paste Message",
         screenshot: "Upload Screenshot",
         voice: "Voice Input"
       },
       placeholder: "Paste a suspicious message, WhatsApp forward, SMS, or Telegram tip here...\n\nExample:\n'Double your money in 5 days! Guaranteed 40% returns. Only 3 slots left. Invest now: http://example.com'",
-      analyzeBtn: "Analyze with MoneyGuard",
+      analyzeBtn: "Analyze with NiveshSuraksha",
       analyzing: "Analyzing content & calculating deterministic risk score...",
       voiceHelp: "Click the microphone and speak your message aloud.",
       screenshotHelp: "Upload a screenshot from WhatsApp, Telegram, Instagram, SMS, or Email.",
       extractedTextTitle: "Text detected from your image",
       extractedTextSubtitle: "Review and edit the extracted text if needed before running analysis:",
       quickTestBtn: "Load Demo Sample",
-      resultTitle: "MoneyGuard Safety Analysis",
+      resultTitle: "NiveshSuraksha Safety Analysis",
       scoreBreakdownBtn: "How was this score calculated?",
       redFlagsTitle: "Identified Warning Signs",
       safeStepsTitle: "Before You Act - Safe Next Steps",
@@ -96,7 +96,7 @@ export const TRANSLATIONS = {
       inputPlaceholder: "Example: 'Everyone in my Telegram group is making money on this stock. I'm going to put ₹1 lakh into it tomorrow.'",
       startBtn: "Start 60-Second Pause",
       signalsDetectedTitle: "Potential Behavioural Signals Detected",
-      signalsNotice: "MoneyGuard identifies linguistic markers in your message without judging your capability.",
+      signalsNotice: "NiveshSuraksha identifies linguistic markers in your message without judging your capability.",
       checkpointTitle: "60-Second Guided Checkpoint",
       checkpointSubtitle: "Answer these 4 questions honestly to clarify your decision:",
       nextBtn: "Next Question",
@@ -109,7 +109,7 @@ export const TRANSLATIONS = {
       journalSaved: "Saved to your local Decision Journal!"
     },
     history: {
-      title: "Your MoneyGuard History",
+      title: "Your NiveshSuraksha History",
       subtitle: "Review your past scam checks, educational queries, and cooling-off journal entries.",
       clearBtn: "Clear All History",
       filterAll: "All Activities",
@@ -119,7 +119,7 @@ export const TRANSLATIONS = {
       emptyState: "No history entries yet. Try checking a message or asking an explanation!"
     },
     safetyGuide: {
-      title: "MoneyGuard Safety Guide",
+      title: "NiveshSuraksha Safety Guide",
       subtitle: "10 Essential Habits for Safer Financial Decisions in India",
       habits: [
         {
@@ -197,11 +197,11 @@ export const TRANSLATIONS = {
 
   hi: {
     brand: {
-      name: "MoneyGuard",
+      name: "NiveshSuraksha",
       tagline: "रुकें। परखें। समझें।",
       companion: "आपका AI वित्तीय सुरक्षा साथी",
       hackathon: "SANGYAN Investor Resilience Hackathon 2026",
-      disclaimer: "MoneyGuard केवल शैक्षिक वित्तीय सुरक्षा मार्गदर्शन प्रदान करता है। यह निवेश सलाह या सिफारिशें नहीं देता है।"
+      disclaimer: "NiveshSuraksha केवल शैक्षिक वित्तीय सुरक्षा मार्गदर्शन प्रदान करता है। यह निवेश सलाह या सिफारिशें नहीं देता है।"
     },
     nav: {
       dashboard: "डैशबोर्ड",
@@ -222,19 +222,19 @@ export const TRANSLATIONS = {
       modesTitle: "वित्तीय सुरक्षा के 3 मुख्य आधार",
       modesSubtitle: "भारतीय खुदरा निवेशकों को धोखाधड़ी, जटिल भाषा और भावनात्मक जल्दबाजी से बचाने के लिए निर्मित।",
       cardCheck: {
-        title: "MoneyGuard Check",
+        title: "NiveshSuraksha Check",
         tag: "डिजिटल धोखाधड़ी से सुरक्षा",
         description: "पैसे भेजने या क्लिक करने से पहले छिपे हुए लाल झंडों (Red Flags) और भ्रामक वादों को पहचानें।",
         btn: "संदेश जांचें"
       },
       cardExplain: {
-        title: "MoneyGuard Explain",
+        title: "NiveshSuraksha Explain",
         tag: "वित्तीय साक्षरता",
         description: "NAV, IPO, SIP और बाजार की कठिन शब्दावली को आसान और दैनिक उदाहरणों के साथ समझें।",
-        btn: "MoneyGuard से पूछें"
+        btn: "NiveshSuraksha से पूछें"
       },
       cardPause: {
-        title: "MoneyGuard Pause",
+        title: "NiveshSuraksha Pause",
         tag: "व्यवहारगत लचीलापन",
         description: "FOMO, दोस्तों के दबाव और नुकसान की भरपाई में जल्दबाजी से बचने के लिए 60 सेकंड का चेकपॉइंट लें।",
         btn: "विराम लें"
@@ -249,21 +249,21 @@ export const TRANSLATIONS = {
     },
     check: {
       title: "क्लिक करने से पहले जांचें",
-      subtitle: "कुछ संदिग्ध लग रहा है? तुरंत MoneyGuard पर लाएं और AI चेतावनी संकेतों की जांच करें।",
+      subtitle: "कुछ संदिग्ध लग रहा है? तुरंत NiveshSuraksha पर लाएं और AI चेतावनी संकेतों की जांच करें।",
       tabs: {
         paste: "संदेश पेस्ट करें",
         screenshot: "स्क्रीनशॉट अपलोड करें",
         voice: "आवाज इनपुट (Voice)"
       },
       placeholder: "यहाँ कोई भी संदिग्ध निवेश संदेश, WhatsApp फॉरवर्ड या SMS पेस्ट करें...\n\nउदाहरण:\n'5 दिनों में पैसा डबल! 40% गारंटीड रिटर्न। केवल 3 सीटें बाकी। अभी निवेश करें: http://example.com'",
-      analyzeBtn: "MoneyGuard से जांचें",
+      analyzeBtn: "NiveshSuraksha से जांचें",
       analyzing: "संदेश का विश्लेषण और पारदर्शी रिस्क स्कोर की गणना हो रही है...",
       voiceHelp: "माइक बटन दबाएं और अपना संदेश बोलें।",
       screenshotHelp: "WhatsApp, Telegram, Instagram या SMS का स्क्रीनशॉट अपलोड करें।",
       extractedTextTitle: "छवि से निकाला गया टेक्स्ट",
       extractedTextSubtitle: "जांच शुरू करने से पहले यदि आवश्यक हो तो टेक्स्ट संपादित करें:",
       quickTestBtn: "डेमो नमूना लोड करें",
-      resultTitle: "MoneyGuard सुरक्षा विश्लेषण",
+      resultTitle: "NiveshSuraksha सुरक्षा विश्लेषण",
       scoreBreakdownBtn: "यह स्कोर कैसे तय किया गया?",
       redFlagsTitle: "पाए गए चेतावनी के संकेत (Red Flags)",
       safeStepsTitle: "कदम उठाने से पहले - सुरक्षित उपाय",
@@ -292,7 +292,7 @@ export const TRANSLATIONS = {
       inputPlaceholder: "उदाहरण: 'मेरे टेलीग्राम ग्रुप में सब पैसे कमा रहे हैं। मैं भी कल इसमें ₹1 लाख लगाने जा रहा हूँ।'",
       startBtn: "60-सेकंड का विराम शुरू करें",
       signalsDetectedTitle: "पहचाने गए भावनात्मक संकेत",
-      signalsNotice: "MoneyGuard बिना आपको आंके केवल संदेश में मौजूद मनोवैज्ञानिक पैटर्न की पहचान करता है।",
+      signalsNotice: "NiveshSuraksha बिना आपको आंके केवल संदेश में मौजूद मनोवैज्ञानिक पैटर्न की पहचान करता है।",
       checkpointTitle: "60 सेकंड का निर्देशित चेकपॉइंट",
       checkpointSubtitle: "अपने निर्णय को स्पष्ट करने के लिए इन 4 प्रश्नों का उत्तर दें:",
       nextBtn: "अगला प्रश्न",
@@ -305,7 +305,7 @@ export const TRANSLATIONS = {
       journalSaved: "आपके जर्नल में सुरक्षित सहेज लिया गया!"
     },
     history: {
-      title: "आपका MoneyGuard इतिहास",
+      title: "आपका NiveshSuraksha इतिहास",
       subtitle: "अपने पिछले स्कैम चेक, शैक्षिक प्रश्नों और जर्नल प्रविष्टियों की समीक्षा करें।",
       clearBtn: "सारा इतिहास साफ करें",
       filterAll: "सभी गतिविधियाँ",
@@ -315,7 +315,7 @@ export const TRANSLATIONS = {
       emptyState: "अभी कोई इतिहास नहीं है। संदेश जांचकर शुरुआत करें!"
     },
     safetyGuide: {
-      title: "MoneyGuard सुरक्षा गाइड",
+      title: "NiveshSuraksha सुरक्षा गाइड",
       subtitle: "सुरक्षित वित्तीय निर्णयों के लिए 10 जरूरी आदतें",
       habits: [
         { num: 1, title: "गारंटीड ऊंचे रिटर्न से सावधान रहें", desc: "बाजार में हर निवेश में जोखिम होता है। निश्चित बड़े मुनाफे का वादा धोखाधड़ी का सबसे बड़ा लक्षण है।" },
@@ -341,11 +341,11 @@ export const TRANSLATIONS = {
 
   mr: {
     brand: {
-      name: "MoneyGuard",
+      name: "NiveshSuraksha",
       tagline: "थांबा. पडताळा. समजून घ्या.",
       companion: "तुमचा AI आर्थिक सुरक्षितता साथीदार",
       hackathon: "SANGYAN Investor Resilience Hackathon 2026",
-      disclaimer: "MoneyGuard केवळ शैक्षणिक आर्थिक सुरक्षितता मार्गदर्शन प्रदान करते. हे गुंतवणुकीचा सल्ला किंवा शिफारसी देत नाही."
+      disclaimer: "NiveshSuraksha केवळ शैक्षणिक आर्थिक सुरक्षितता मार्गदर्शन प्रदान करते. हे गुंतवणुकीचा सल्ला किंवा शिफारसी देत नाही."
     },
     nav: {
       dashboard: "डॅशबोर्ड",
@@ -366,19 +366,19 @@ export const TRANSLATIONS = {
       modesTitle: "आर्थिक संरक्षणाचे ३ मुख्य आधार",
       modesSubtitle: "भारतीय किरकोळ गुंतवणूकदारांना फसवणूक, क्लिष्ट भाषा आणि भावनिक घाईपासून वाचवण्यासाठी विकसित.",
       cardCheck: {
-        title: "MoneyGuard Check",
+        title: "NiveshSuraksha Check",
         tag: "डिजिटल फसवणुकीपासून संरक्षण",
         description: "पैसे पाठवण्यापूर्वी किंवा लिंकवर क्लिक करण्यापूर्वी लपलेले धोक्याचे संकेत (Red Flags) ओळखा.",
         btn: "संदेश तपासा"
       },
       cardExplain: {
-        title: "MoneyGuard Explain",
+        title: "NiveshSuraksha Explain",
         tag: "आर्थिक साक्षरता",
         description: "NAV, IPO, SIP आणि इतर क्लिष्ट आर्थिक संकल्पना दैनंदिन सोप्या उदाहरणांसह समजून घ्या.",
-        btn: "MoneyGuard ला विचारा"
+        btn: "NiveshSuraksha ला विचारा"
       },
       cardPause: {
-        title: "MoneyGuard Pause",
+        title: "NiveshSuraksha Pause",
         tag: "वर्तणूक लवचिकता",
         description: "FOMO, समूहाचा दबाव आणि नुकसानीच्या भरात घाईगडबडीने निर्णय घेण्यापूर्वी ६० सेकंद आत्मपरीक्षण करा.",
         btn: "विराम घ्या"
@@ -393,21 +393,21 @@ export const TRANSLATIONS = {
     },
     check: {
       title: "क्लिक करण्यापूर्वी तपासा",
-      subtitle: "काही संशयास्पद वाटत आहे? तत्काळ MoneyGuard वर आणा आणि AI धोक्याचे संकेत तपासा.",
+      subtitle: "काही संशयास्पद वाटत आहे? तत्काळ NiveshSuraksha वर आणा आणि AI धोक्याचे संकेत तपासा.",
       tabs: {
         paste: "संदेश पेस्ट करा",
         screenshot: "स्क्रीनशॉट अपलोड करा",
         voice: "आवाज इनपुट (Voice)"
       },
       placeholder: "येथे संशयास्पद गुंतवणुकीचा संदेश, WhatsApp फॉरवर्ड किंवा SMS पेस्ट करा...\n\nउदाहरण:\n'५ दिवसांत पैसे दुप्पट! ४०% हमी परतावा. फक्त ३ जागा शिल्लक. आत्ताच गुंतवा: http://example.com'",
-      analyzeBtn: "MoneyGuard द्वारे तपासा",
+      analyzeBtn: "NiveshSuraksha द्वारे तपासा",
       analyzing: "संदेशाचे विश्लेषण आणि पारदर्शक रिस्क स्कोअर तयार केला जात आहे...",
       voiceHelp: "माईक बटन दाबा आणि आपला संदेश बोला.",
       screenshotHelp: "WhatsApp, Telegram, Instagram किंवा SMS चा स्क्रीनशॉट अपलोड करा.",
       extractedTextTitle: "प्रतिमेतून काढलेला मजकूर",
       extractedTextSubtitle: "विश्लेषण सुरू करण्यापूर्वी आवश्यक असल्यास मजकूर तपासा आणि संपादित करा:",
       quickTestBtn: "डेमो नमुना लोड करा",
-      resultTitle: "MoneyGuard सुरक्षा विश्लेषण",
+      resultTitle: "NiveshSuraksha सुरक्षा विश्लेषण",
       scoreBreakdownBtn: "हा स्कोअर कसा ठरवला गेला?",
       redFlagsTitle: "आढळलेले धोक्याचे संकेत (Red Flags)",
       safeStepsTitle: "पुढील पाऊल उचलण्यापूर्वी - सुरक्षित उपाय",
@@ -436,7 +436,7 @@ export const TRANSLATIONS = {
       inputPlaceholder: "उदाहरण: 'माझ्या टेलिग्राम ग्रुपमधील सर्वजण नफा कमवत आहेत. मी उद्या यात ₹१ लाख टाकणार आहे.'",
       startBtn: "६०-सेकंदांचा विराम सुरू करा",
       signalsDetectedTitle: "आढळलेले भावनिक संकेत",
-      signalsNotice: "MoneyGuard तुमच्या संदेशातील मानसशास्त्रीय नमुन्यांची नोंद घेते, कोणताही वैयक्तिक निष्कर्ष काढत नाही.",
+      signalsNotice: "NiveshSuraksha तुमच्या संदेशातील मानसशास्त्रीय नमुन्यांची नोंद घेते, कोणताही वैयक्तिक निष्कर्ष काढत नाही.",
       checkpointTitle: "६० सेकंदांचा मार्गदर्शित चेकपॉईंट",
       checkpointSubtitle: "आपला निर्णय अधिक स्पष्ट करण्यासाठी खालील ४ प्रश्नांची उत्तरे द्या:",
       nextBtn: "पुढील प्रश्न",
@@ -449,7 +449,7 @@ export const TRANSLATIONS = {
       journalSaved: "तुमच्या जर्नलमध्ये सुरक्षित जतन केले गेले!"
     },
     history: {
-      title: "तुमचा MoneyGuard इतिहास",
+      title: "तुमचा NiveshSuraksha इतिहास",
       subtitle: "मागील स्कॅम तपासण्या, शैक्षणिक प्रश्न आणि जर्नल नोंदींचे पुनरावलोकन करा.",
       clearBtn: "सर्व इतिहास नष्ट करा",
       filterAll: "सर्व नोंदी",
@@ -459,7 +459,7 @@ export const TRANSLATIONS = {
       emptyState: "अद्याप कोणतीही नोंद नाही. एखादा संदेश तपासून सुरुवात करा!"
     },
     safetyGuide: {
-      title: "MoneyGuard सुरक्षा मार्गदर्शक",
+      title: "NiveshSuraksha सुरक्षा मार्गदर्शक",
       subtitle: "सुरक्षित आर्थिक निर्णयांसाठी १० आवश्यक सवयी",
       habits: [
         { num: 1, title: "हमीयुक्त अवास्तव परताव्यापासून सावध राहा", desc: "बाजारातील प्रत्येक गुंतवणुकीत जोखीम असते. हमीयुक्त परताव्याचे आश्वासन फसवणुकीचे पहिले लक्षण आहे." },

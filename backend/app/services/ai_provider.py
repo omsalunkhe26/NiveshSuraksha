@@ -7,7 +7,7 @@ from app.config import settings
 from app.services.risk_engine import RiskEngine
 from app.services.behavioral_engine import BehavioralEngine
 
-logger = logging.getLogger("moneyguard.ai")
+logger = logging.getLogger("NiveshSuraksha.ai")
 
 # Pre-computed curated financial explanations for standard hackathon queries
 FINANCIAL_KNOWLEDGE_BASE = {
@@ -220,7 +220,7 @@ class AIProviderService:
         if settings.GEMINI_API_KEY and not demo_mode:
             try:
                 system_prompt = (
-                    "You are MoneyGuard Explain, an AI Financial Safety and Literacy guide for Indian retail investors. "
+                    "You are NiveshSuraksha Explain, an AI Financial Safety and Literacy guide for Indian retail investors. "
                     "Explain the requested financial concept in simple, friendly, jargon-free language. "
                     "CRITICAL: Do NOT provide investment advice or buy/sell recommendations. "
                     f"Generate response in language: '{lang}' (English, Hindi, or Marathi). "

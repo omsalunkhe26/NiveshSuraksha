@@ -6,7 +6,7 @@ from app.models import ExplainHistory
 from app.schemas import ExplainRequest, ExplainResponse
 from app.services.ai_provider import AIProviderService
 
-router = APIRouter(prefix="/api/explain", tags=["MoneyGuard Explain"])
+router = APIRouter(prefix="/api/explain", tags=["NiveshSuraksha Explain"])
 
 @router.post("", response_model=ExplainResponse)
 async def explain_finance_concept(req: ExplainRequest, db: AsyncSession = Depends(get_db)):

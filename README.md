@@ -1,4 +1,4 @@
-# MoneyGuard 🛡️
+# NiveshSuraksha 🛡️
 > **"Pause. Verify. Understand."**  
 > *Your AI-Powered Financial Safety Companion*
 
@@ -12,10 +12,10 @@
 
 ## 📌 Executive Summary
 
-**MoneyGuard** is an AI-powered Financial Safety Companion designed specifically for Indian retail investors. Developed for the **SANGYAN Investor Resilience Hackathon 2026**, MoneyGuard acts as a calm, intelligent protective layer between users and predatory financial content.
+**NiveshSuraksha** is an AI-powered Financial Safety Companion designed specifically for Indian retail investors. Developed for the **SANGYAN Investor Resilience Hackathon 2026**, NiveshSuraksha acts as a calm, intelligent protective layer between users and predatory financial content.
 
 > **CRITICAL POSITIONING NOTICE:**  
-> **MoneyGuard is a FINANCIAL SAFETY TOOL, NOT:**
+> **NiveshSuraksha is a FINANCIAL SAFETY TOOL, NOT:**
 > - an investment advisor or stock recommendation engine
 > - a trading terminal or portfolio manager
 > - a stock price prediction or algorithmic betting system
@@ -28,10 +28,10 @@
 
 ```mermaid
 graph TD
-    A[User Encounters Financial Content] --> B{MoneyGuard Protective Layer}
-    B -->|Check Message / Screenshot / Voice| C[🚨 MONEYGUARD CHECK]
-    B -->|Jargon-Free Financial Literacy| D[🧠 MONEYGUARD EXPLAIN]
-    B -->|60-Second Cooling-Off Buffer| E[🛑 MONEYGUARD PAUSE]
+    A[User Encounters Financial Content] --> B{NiveshSuraksha Protective Layer}
+    B -->|Check Message / Screenshot / Voice| C[🚨 NiveshSuraksha CHECK]
+    B -->|Jargon-Free Financial Literacy| D[🧠 NiveshSuraksha EXPLAIN]
+    B -->|60-Second Cooling-Off Buffer| E[🛑 NiveshSuraksha PAUSE]
     
     C --> F[18 Scam Signatures + Deterministic Score 0-100]
     D --> G[5-Part Everyday Analogy Breakdown]
@@ -42,7 +42,7 @@ graph TD
     H --> I
 ```
 
-### 1. 🚨 MONEYGUARD CHECK (Digital Fraud Resilience)
+### 1. 🚨 NiveshSuraksha CHECK (Digital Fraud Resilience)
 - **Multi-Modal Inputs**:
   - **Paste Message**: Analyzes text from WhatsApp forwards, Telegram groups, SMS, and emails.
   - **Screenshot OCR Flow**: Upload screenshots with automatic text & entity extraction (URLs, claims, payment requests), with in-place text editing before analysis. Includes pre-loaded 1-click test screenshot presets.
@@ -76,7 +76,7 @@ graph TD
 
 ---
 
-### 2. 🧠 MONEYGUARD EXPLAIN (Financial Literacy & Jargon Buster)
+### 2. 🧠 NiveshSuraksha EXPLAIN (Financial Literacy & Jargon Buster)
 - Demystifies complex market concepts into **5 accessible parts**:
   1. **Simple Explanation**: 1–2 plain-language sentences.
   2. **Everyday Analogy**: Real-world relatable metaphors (groceries, shared buses, car dashboards).
@@ -88,7 +88,7 @@ graph TD
 
 ---
 
-### 3. 🛑 MONEYGUARD PAUSE (Behavioural Resilience & Cooling-Off)
+### 3. 🛑 NiveshSuraksha PAUSE (Behavioural Resilience & Cooling-Off)
 - **Linguistic Marker Detection**: Identifies signals of **FOMO, Urgency, Social Pressure, Loss Chasing, Overconfidence, and Impulsive Capital Allocation**.
 - **Non-Judgmental Tone**: Uses supportive phrasing (*"Your message contains language associated with..."* rather than labeling the user).
 - **Interactive 60-Second Checkpoint**: 4-question guided reflection:
@@ -150,7 +150,7 @@ c:\My Projects\AI-Finance-Companion\
 │   │   │   ├── DemoModeContext.jsx  # Demo mode state & 1-click scenario loader
 │   │   │   └── HistoryContext.jsx   # History management & local storage sync
 │   │   ├── components/
-│   │   │   ├── Navbar.jsx           # MoneyGuard Shield+Rupee brand, navigation & controls
+│   │   │   ├── Navbar.jsx           # NiveshSuraksha Shield+Rupee brand, navigation & controls
 │   │   │   ├── Footer.jsx           # Educational disclaimer & regulator links
 │   │   │   ├── RiskBadge.jsx        # Dual-encoding badge (icon + text + color)
 │   │   │   ├── ScoreBreakdownModal.jsx # "How was this score calculated?" breakdown modal
@@ -218,13 +218,13 @@ PORT=8000
 ENVIRONMENT=development
 
 # AI Provider Configuration ("gemini", "openai", or "demo")
-# NOTE: If keys are left blank, MoneyGuard runs automatically in resilient Demo Mode
+# NOTE: If keys are left blank, NiveshSuraksha runs automatically in resilient Demo Mode
 AI_PROVIDER=demo
 GEMINI_API_KEY=
 OPENAI_API_KEY=
 
 # Database Connection (Default: Async SQLite)
-DATABASE_URL=sqlite+aiosqlite:///./moneyguard.db
+DATABASE_URL=sqlite+aiosqlite:///./NiveshSuraksha.db
 
 # CORS Allowed Origins
 CORS_ORIGINS=http://localhost:5173,http://127.0.0.1:5173,http://localhost:3000
@@ -252,7 +252,7 @@ npm run dev
 
 ## 🎯 Demo Mode Instructions
 
-MoneyGuard is engineered to be **100% offline-resilient** and fully functional **without requiring an external API key or internet connection**. This guarantees that live hackathon jury presentations will never fail due to network drops or API rate limits.
+NiveshSuraksha is engineered to be **100% offline-resilient** and fully functional **without requiring an external API key or internet connection**. This guarantees that live hackathon jury presentations will never fail due to network drops or API rate limits.
 
 ### Top Banner Quick-Test Presets:
 1. **1. Scam Check (Double Money)**:
@@ -271,7 +271,7 @@ MoneyGuard is engineered to be **100% offline-resilient** and fully functional *
 
 ## 🤖 AI Configuration & Fallback Hierarchy
 
-MoneyGuard uses a three-tier provider abstraction:
+NiveshSuraksha uses a three-tier provider abstraction:
 
 ```
 [Request]
@@ -312,7 +312,7 @@ MoneyGuard uses a three-tier provider abstraction:
 
 ## ⚠️ Known Limitations & Scope Boundaries
 
-1. **Educational Only**: MoneyGuard does not provide individualized tax, legal, or investment advice.
+1. **Educational Only**: NiveshSuraksha does not provide individualized tax, legal, or investment advice.
 2. **Prototype Database**: Uses SQLite with async support for lightweight zero-config setup. For production multi-tenant deployment, migrate `DATABASE_URL` to PostgreSQL.
 3. **Voice Recognition**: Web Speech API requires browser mic permissions and is natively supported in Chromium-based browsers (Chrome, Edge, Brave, Opera) and Safari.
 4. **OCR Scope**: Includes full simulated OCR parser and pre-packaged test screenshots. In a full cloud production tier, Google Cloud Vision API or Tesseract binary can be bound to the OCR service interface.

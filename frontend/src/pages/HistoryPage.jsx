@@ -53,7 +53,7 @@ export const HistoryPage = () => {
         {historyItems.length > 0 && (
           <button
             onClick={() => {
-              if (window.confirm("Are you sure you want to clear all MoneyGuard history?")) {
+              if (window.confirm("Are you sure you want to clear all NiveshSuraksha history?")) {
                 clearAll();
               }
             }}
