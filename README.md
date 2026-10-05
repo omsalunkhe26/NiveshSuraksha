@@ -105,43 +105,20 @@ graph TD
 
 ## 🏗️ Technology Architecture
 
-NiveshSuraksha follows a safety-first processing pipeline:
+NiveshSuraksha follows a simple safety-first pipeline from user input to safer financial decisions.
 
+```mermaid
+flowchart LR
+    A[👤 User Input<br/>Text • Screenshot • Voice]
+    B[⚙️ Input Processing<br/>OCR • Speech-to-Text • Language]
+    C[🧠 AI Safety Engine<br/>Gemini / OpenAI<br/>Risk Engine • Red Flags • Knowledge Base]
+    D[🛡️ Safety Layer<br/>Risk Assessment<br/>Evidence • Cooling-Off]
+    E[✅ Safe User Output<br/>Explanation • Regional Language<br/>Safe Next Steps]
 
-User Input
-   │
-   ├── Text / Message
-   ├── Screenshot
-   └── Voice
-   │
-   ▼
-Input Processing
-   │
-   ├── OCR
-   ├── Speech-to-Text
-   └── Language Processing
-   │
-   ▼
-AI Safety Engine
-   │
-   ├── Gemini / OpenAI
-   ├── Deterministic Risk Engine
-   ├── Red-Flag Detection
-   └── Knowledge Base
-   │
-   ▼
-Safety Layer
-   │
-   ├── Risk Assessment
-   ├── Evidence Explanation
-   └── Cooling-Off Prompt
-   │
-   ▼
-Safe User Output
-   │
-   ├── Risk Explanation
-   ├── Regional Language
-   └── Safe Next Steps
+    A --> B
+    B --> C
+    C --> D
+    D --> E
    
 ### 2. 🧠 NiveshSuraksha EXPLAIN (Financial Literacy & Jargon Buster)
 - Demystifies complex market concepts into **5 accessible parts**:
