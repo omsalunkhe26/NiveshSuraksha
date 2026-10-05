@@ -21,26 +21,52 @@
 > - a stock price prediction or algorithmic betting system
 >
 > Its sole purpose is to build resilience against **financial scams, misleading investment content, financial jargon, FOMO, and impulsive decisions.**
+> ---
+
+## 🛡️ Safety & Responsible AI Guardrails
+
+NiveshSuraksha is designed as a **financial safety and education companion**, not as an investment recommendation system.
+
+### What NiveshSuraksha NEVER does
+
+- ❌ Recommends specific stocks or securities
+- ❌ Provides Buy / Sell / Hold signals
+- ❌ Predicts future prices or returns
+- ❌ Provides personalized investment advice
+- ❌ Promotes brokers, financial products, or paid services
+- ❌ Requests OTPs, PINs, passwords, or unnecessary financial records
+
+### What NiveshSuraksha ALWAYS does
+
+- ✅ Explains financial concepts in simple language
+- ✅ Identifies observable scam and manipulation signals
+- ✅ Shows the evidence behind a risk assessment
+- ✅ Communicates uncertainty rather than claiming certainty
+- ✅ Encourages independent verification through trusted sources
+- ✅ Provides safe, educational next steps
+
+### Human-in-the-loop principle
+
+NiveshSuraksha is designed to **support the user's decision-making process, not replace it**.
+
+> **Understand → Verify → Pause → Decide**
 
 ---
 
 ## 🌟 The Three Pillars of Investor Resilience
 
-```mermaid
 graph TD
     A[User Encounters Financial Content] --> B{NiveshSuraksha Protective Layer}
     B -->|Check Message / Screenshot / Voice| C[🚨 NiveshSuraksha CHECK]
     B -->|Jargon-Free Financial Literacy| D[🧠 NiveshSuraksha EXPLAIN]
     B -->|60-Second Cooling-Off Buffer| E[🛑 NiveshSuraksha PAUSE]
-    
     C --> F[18 Scam Signatures + Deterministic Score 0-100]
     D --> G[5-Part Everyday Analogy Breakdown]
     E --> H[Behavioral Signal Detector + Reflection Journal]
-    
     F --> I[Safe, Informed Financial Action]
     G --> I
     H --> I
-```
+
 
 ### 1. 🚨 NiveshSuraksha CHECK (Digital Fraud Resilience)
 - **Multi-Modal Inputs**:
@@ -75,7 +101,48 @@ graph TD
 - **Safe Next Steps**: Clear educational checklists (Don't transfer, Don't share OTPs, Verify on SEBI/RBI portals).
 
 ---
+---
 
+## 🏗️ Technology Architecture
+
+NiveshSuraksha follows a safety-first processing pipeline:
+
+
+User Input
+   │
+   ├── Text / Message
+   ├── Screenshot
+   └── Voice
+   │
+   ▼
+Input Processing
+   │
+   ├── OCR
+   ├── Speech-to-Text
+   └── Language Processing
+   │
+   ▼
+AI Safety Engine
+   │
+   ├── Gemini / OpenAI
+   ├── Deterministic Risk Engine
+   ├── Red-Flag Detection
+   └── Knowledge Base
+   │
+   ▼
+Safety Layer
+   │
+   ├── Risk Assessment
+   ├── Evidence Explanation
+   └── Cooling-Off Prompt
+   │
+   ▼
+Safe User Output
+   │
+   ├── Risk Explanation
+   ├── Regional Language
+   └── Safe Next Steps
+   
 ### 2. 🧠 NiveshSuraksha EXPLAIN (Financial Literacy & Jargon Buster)
 - Demystifies complex market concepts into **5 accessible parts**:
   1. **Simple Explanation**: 1–2 plain-language sentences.
