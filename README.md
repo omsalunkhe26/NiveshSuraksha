@@ -119,6 +119,7 @@ flowchart LR
     B --> C
     C --> D
     D --> E
+```
    
 ### 2. 🧠 NiveshSuraksha EXPLAIN (Financial Literacy & Jargon Buster)
 - Demystifies complex market concepts into **5 accessible parts**:
